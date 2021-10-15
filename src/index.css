@@ -4,6 +4,7 @@
     font-family: "Quicksand";
     color: white;
     background-color: #181A1B;
+    text-align: center;
 }
 
 .topnav {
@@ -23,5 +24,17 @@
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: black; 
+  }
+
+  .Photo {
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    padding-bottom: 20px;
+  }
+
+  .Hakkimizda p {
+    padding-left: 20%;
+    padding-right: 20%;
   }
