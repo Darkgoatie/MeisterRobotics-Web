@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    font-family: "Quicksand";
+    color: white;
+    background-color: #181A1B;
+}
+
+.topnav {
+    background-color: rgb(38, 42, 43);;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(224, 221, 217);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
