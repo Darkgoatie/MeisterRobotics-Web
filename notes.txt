@@ -1,6 +1,6 @@
 sol ustte ana sayfaya atan ikon
 dropdown 
 Bootstrap ( dropdown icin )
-renkleri degistir TopBar icin ( TopBar.js )
+renkleri degistir TopBar icin ( TopBar.js ) || DONE
 https://www.deepl.com/docs-api API for Translate ( Use HTTP )\
 Trello API requests
