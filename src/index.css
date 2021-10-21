@@ -2,19 +2,25 @@
 
 * {
     font-family: "Quicksand";
-    color: white;
-    background-color: #181A1B;
+    /*
+    background-color: #181A1B;*/
     text-align: center;
 }
 
-.topnav {
-    background-color: #181A1B;
+p, h1, h2, h3, h4, h5, h6 {
+  font-size: 200%;
+}
+h1 {
+  font-size: 300%;
+}
+.topnav { /*
+    background-color: #181A1B; */
     overflow: hidden;
   }
   
   .topnav a {
     float: left;
-    color: rgb(224, 221, 217);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -84,3 +90,21 @@
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+
+#Thanks {
+background-color: #FF0000;
+border-radius: 10px; /*
+margin-left: 25%;
+margin-right: 25%; */ 
+}
+#About {
+  background-color: #00e1ff;
+  border-radius: 10px; /*
+  margin-left: 5%;
+  margin-right: 5%; */
+  }
+
+#About h4 {
+  size: 400%;
+}

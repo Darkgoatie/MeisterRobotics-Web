@@ -1,23 +1,19 @@
 import TopBar from "./TopBarEN";
 
 const MedyaEN = () => {
-    const MediaLinks = [
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lower_Manhattan_skyline_-_June_2017.jpg/1200px-Lower_Manhattan_skyline_-_June_2017.jpg',
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lower_Manhattan_skyline_-_June_2017.jpg/1200px-Lower_Manhattan_skyline_-_June_2017.jpg',
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lower_Manhattan_skyline_-_June_2017.jpg/1200px-Lower_Manhattan_skyline_-_June_2017.jpg',
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Lower_Manhattan_skyline_-_June_2017.jpg/1200px-Lower_Manhattan_skyline_-_June_2017.jpg'
-    ];
+    const Media = require("./Media.json");
     return ( 
         <div id="Media">
             <TopBar />
             <hr />
-            {MediaLinks.map((photo) => {
+            {Media.map((photo) => {
                 return(
                     <div className="Photo">
+                    <h3>{photo.name}</h3>
                     <img style={{
                         marginLeft: 'auto',
                         marginRight: 'auto'
-                    }} src={photo}></img>
+                    }} src={photo.img}></img>
                     <br /> <br />
                     </div>
                 )
