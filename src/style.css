@@ -1,0 +1,23 @@
+html, body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.dark {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+h1, p, a:not([class="nav-item nav-link"])
+{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
