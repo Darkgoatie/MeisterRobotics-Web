@@ -15,7 +15,7 @@ html, body {
     color: white;
 }
 
-h1, p, a:not([class="nav-item nav-link"])
+h1, p
 {
     text-align: center;
     margin-left: 10%;
