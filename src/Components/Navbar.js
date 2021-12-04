@@ -2,7 +2,7 @@ const Navbar = () => {
     return ( 
         <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
     <div className="container-fluid">
-        <a className="navbar-brand" href="#"><img alt="icon" height="32px" src="/MeisterRobotics-modified.png"></img> Meister Robotics</a>
+        <a className="navbar-brand" href="#"><img alt="icon" height="32px" src="/MeisterRobotics.png"></img> Meister Robotics</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
             <span className="navbar-toggler-icon"></span>
         </button>
