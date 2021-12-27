@@ -13,6 +13,14 @@ const Navbar = () => {
                 <a className="nav-item nav-link" href="#about">About</a>
                 <a className="nav-item nav-link" href="#businessplan">Business Plan</a>
                 <a className="nav-item nav-link" href="#sponsorship">Sponsorships</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Social Media</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item fa fa-linkedin" href="https://www.linkedin.com/company/meister-robotics-team/"> | Linkedin</a></li>
+                        <li><a class="dropdown-item fa fa-instagram" href="https://www.instagram.com/frcmeister8754/"> | Instagram</a></li>
+                        <li><a class="dropdown-item fa fa-youtube" href="https://www.youtube.com/channel/UCOoilh6XoF2wymv-gqpFVgg"> | Youtube</a></li>
+                     </ul>
+                </li>
             </div>
         </div>
     </div>
