@@ -9,6 +9,7 @@
     "react-scripts": "^4.0.3"
   },
   "scripts": {
+    "prepare": "npm i && npm audit",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
