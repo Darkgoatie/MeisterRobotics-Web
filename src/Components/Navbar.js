@@ -16,9 +16,9 @@ const Navbar = () => {
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Social Media</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item fa fa-linkedin" href="https://www.linkedin.com/company/meister-robotics-team/"> | Linkedin</a></li>
-                        <li><a class="dropdown-item fa fa-instagram" href="https://www.instagram.com/frcmeister8754/"> | Instagram</a></li>
-                        <li><a class="dropdown-item fa fa-youtube" href="https://www.youtube.com/channel/UCOoilh6XoF2wymv-gqpFVgg"> | Youtube</a></li>
+                        <li><a target="_blank" class="dropdown-item fa fa-linkedin" href="https://www.linkedin.com/company/meister-robotics-team/"> | Linkedin</a></li>
+                        <li><a target="_blank" class="dropdown-item fa fa-instagram" href="https://www.instagram.com/frcmeister8754/"> | Instagram</a></li>
+                        <li><a target="_blank" class="dropdown-item fa fa-youtube" href="https://www.youtube.com/channel/UCOoilh6XoF2wymv-gqpFVgg"> | Youtube</a></li>
                      </ul>
                 </li>
             </div>
