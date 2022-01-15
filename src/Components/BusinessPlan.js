@@ -1,7 +1,7 @@
 const Projects = () => {
     return ( 
         
-    <div class="section dark" id="businessplan">
+    <div class="section" id="businessplan">
         <div class="jumbotron">
            <h1 class="display-4">Business Plan: Who are we, what do we do?</h1>
            <br />
@@ -10,7 +10,7 @@ const Projects = () => {
     Business Plan Info
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a className="dropdown-item" href="https://cdn.discordapp.com/attachments/916762048606650378/916780683609911306/Business_Plan_EN.pdf">Business Plan EN</a></li>
+    <li><a className="dropdown-item" target="_blank" href="https://docs.google.com/presentation/d/1Sg3D4J3PCpDYQNzmPhmJHqdsG3PBifpsVnUeKmpRdYE/edit?usp=sharing">Business Plan EN</a></li>
   </ul>
 </div></p>
         </div>

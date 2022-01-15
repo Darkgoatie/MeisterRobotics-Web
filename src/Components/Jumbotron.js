@@ -1,7 +1,7 @@
 const Jumbotron = () => {
     return ( 
-        <div class="section">
-            <div class="jumbotron">
+        <div id="HomePage" class="section">
+            <div id="HomeJumbotron" class="jumbotron">
                 <h1 class="display-4">Hey There!</h1>
                 <p class="lead">Welcome to the official website of Meister Robotics</p>
                 <p class="lead">
