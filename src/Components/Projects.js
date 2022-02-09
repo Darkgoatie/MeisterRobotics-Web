@@ -1,10 +1,10 @@
 const Projects = () => {
   return (
     <div className="section" id="Projects">
-      <div className="jumbotron">
+      <div className="jumbotron" style={{ width: "100%" }}>
         <p className="display-3">Projects</p>
         <p className="lead">
-          <ul>
+          <ul style={{ listStyleType: "none" }}>
             <li>
               <details>
                 <summary>
