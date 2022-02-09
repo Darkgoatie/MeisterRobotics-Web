@@ -30,10 +30,10 @@ render(
           <Navbar />
           <Jumbotron />
           <Thanks />
-          <CIMG1 />
           <About />
           <CIMG2 />
           <Vision />
+          <CIMG1 />
           <CIMG3 />
           <BusinessPlan />
           <CIMG4 />
