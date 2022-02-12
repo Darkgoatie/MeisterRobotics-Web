@@ -9,6 +9,7 @@ import Timeline from "./Components/Sponsorships";
 import "./style.css";
 import Sponsors from "./Components/Sponsors";
 import Vision from "./Components/Vision";
+import Values from "./Components/Values";
 import {
   BrowserRouter as Router,
   Switch as Routes,
@@ -33,6 +34,7 @@ render(
           <About />
           <CIMG2 />
           <Vision />
+          <Values />
           <CIMG1 />
           <CIMG3 />
           <BusinessPlan />
