@@ -40,7 +40,7 @@ const Projects = () => {
             <li>
               <details>
                 <summary>
-                  <b>Scientist Videos</b>
+                  <b>Roots of Stem Videos</b>
                 </summary>
                 Believing in the power of visual learning, we have set ourselves
                 the goal of delivering videos about science, technology,
