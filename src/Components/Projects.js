@@ -48,6 +48,26 @@ const Projects = () => {
                 reach.
               </details>
             </li>
+            <li>
+              <details>
+                <summary>
+                  <b>Support for Life Association</b>
+                </summary>
+                By completing the "support for the prevention of gender-based violence"
+                training of the life support association, we became conscious as a
+                team about one of today's most important current problems.
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  <b>Riders</b>
+                </summary>
+                We had the chance to learn and experience many things on the way
+                to the "Riders trainings" that we entered with many FRC teams in
+                order to add new ones to the previous experiences of our team.
+              </details>
+            </li>
           </ul>
         </p>
       </div>
