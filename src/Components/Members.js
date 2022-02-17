@@ -11,7 +11,7 @@ const Members = () => {
     }
 
     return (
-        <div className="section" id="Members">
+        <div className="section dark" id="Members">
             <div className="jumbotron">
                 <p className="display-4">Our Team</p>
                 <div className="row">

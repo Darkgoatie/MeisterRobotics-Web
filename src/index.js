@@ -32,6 +32,7 @@ render(
           <Jumbotron />
           <Thanks />
           <About />
+          <Members />
           <CIMG2 />
           <Vision />
           <Values />
@@ -48,10 +49,6 @@ render(
       <Route exact path="/sponsors">
         <Navbar />
         <RSponsors />
-      </Route>
-      <Route exact path="/members">
-        <Navbar />
-        <Members />
       </Route>
       <Route>
         <meta http-equiv="refresh" content="0;URL='/'" />
