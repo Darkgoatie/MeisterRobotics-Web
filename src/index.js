@@ -1,7 +1,7 @@
 const { render } = require("react-dom");
 import About from "./Components/About";
 import Jumbotron from "./Components/Jumbotron";
-// import Members from './Components/Members';
+import Members from './Components/Members';
 import Navbar from "./Components/Navbar";
 import BusinessPlan from "./Components/BusinessPlan";
 import Thanks from "./Components/Thanks";
@@ -26,7 +26,7 @@ import CIMG5 from "./Classes/Image5";
 render(
   <Router>
     <Routes>
-      <Route path="/">
+      <Route exact path="/">
         <div className="Main">
           <Navbar />
           <Jumbotron />
@@ -48,6 +48,10 @@ render(
       <Route exact path="/sponsors">
         <Navbar />
         <RSponsors />
+      </Route>
+      <Route exact path="/members">
+        <Navbar />
+        <Members />
       </Route>
       <Route>
         <meta http-equiv="refresh" content="0;URL='/'" />
