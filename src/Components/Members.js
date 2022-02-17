@@ -1,20 +1,34 @@
 const Members = () => {
-    const TM = require("./TeamMembers.json");
-    let mc = 0;
-    return (                     
-<div className="section" id="Members">
-    <h1 class="display-4">Our Team</h1>
-    {TM.map((Member) => {
-        mc =+ 1;
-        return (<img style={{
-            marginLeft: "40px",
-            marginRight: "40px"
-        }} height="200px" width="200px" src={Member.icon} title={Member.name} key={`${Member.name}#${mc}`} alt={Member.name}></img> 
-        )
-    })}
+    let members = require("./TeamMembers.json");
+    let m = Math.ceil(members.length / 2)
+    let firstHalf = members.slice(0, m);
+    let secondHalf = members.slice(m);
 
-</div>
- );
+    const arrayToItems = (array) => {
+        return array.map((i) => {
+            return <li>{i}</li>
+        })
+    }
+
+    return (
+        <div className="section" id="Members">
+            <div className="jumbotron">
+                <p className="display-4">Our Team</p>
+                <div className="row">
+                    <div className="col-sm-6">
+                        <ul>
+                            {arrayToItems(firstHalf)}
+                        </ul>
+                    </div>
+                    <div className="col-sm-6">
+                        <ul>
+                            {arrayToItems(secondHalf)}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 }
- 
+
 export default Members;
