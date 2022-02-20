@@ -22,6 +22,7 @@ import CIMG3 from "./Classes/Image3";
 import CIMG4 from "./Classes/Image4";
 import Projects from "./Components/Projects";
 import CIMG5 from "./Classes/Image5";
+import Izmir from "./Components/Izmir";
 
 render(
   <Router>
@@ -34,6 +35,7 @@ render(
           <About />
           <Members />
           <CIMG2 />
+          <Izmir />
           <Vision />
           <Values />
           <CIMG1 />
