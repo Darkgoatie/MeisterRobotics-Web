@@ -2,6 +2,7 @@ const Members = () => {
   let members = require("./TeamMembers.json");
   const firstCaptain = members.shift();
   const secondCaptain = members.shift();
+  const thirdCaptain = members.shift();
   let m = Math.ceil(members.length / 2);
   let firstHalf = members.slice(0, m);
   let secondHalf = members.slice(m);
@@ -14,6 +15,7 @@ const Members = () => {
 
   const svgStar = (
     <img
+      title="Team Captain"
       style={{
         height: "20px",
       }}
@@ -25,12 +27,18 @@ const Members = () => {
     <div className="section dark" id="Members">
       <div className="jumbotron">
         <p className="display-4">Our Team</p>
-        <p className="lead">{svgStar}: Team Captain</p>
+        <p
+          style={{
+            textAlign: "center",
+          }}
+        >
+          {svgStar} {firstCaptain}
+        </p>
         <div className="row">
           <div className="col-sm-6">
             <ul>
               <li>
-                {svgStar} {firstCaptain}
+                {svgStar} {secondCaptain}
               </li>
               {arrayToItems(firstHalf)}
             </ul>
@@ -38,7 +46,7 @@ const Members = () => {
           <div className="col-sm-6">
             <ul>
               <li>
-                {svgStar} {secondCaptain}{" "}
+                {svgStar} {thirdCaptain}{" "}
               </li>
               {arrayToItems(secondHalf)}
             </ul>

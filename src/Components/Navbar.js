@@ -2,7 +2,13 @@ const Navbar = () => {
   return (
     <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/#">
+        <a
+          style={{
+            color: "#21a0bd",
+          }}
+          className="navbar-brand"
+          href="/#"
+        >
           <img alt="icon" height="32px" src="/MeisterRobotics.png"></img>{" "}
           Meister Robotics
         </a>
@@ -16,25 +22,37 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbar">
           <div className="navbar-nav">
-            <a className="nav-item nav-link" href="/#">
+            <a className="underlineOnHover nav-item nav-link" href="/#">
               Home
             </a>
-            <a className="nav-item nav-link" href="/#about">
+            <a className="underlineOnHover nav-item nav-link" href="/#about">
               About
             </a>
-            <a className="nav-item nav-link" href="/#businessplan">
+            <a
+              className="underlineOnHover nav-item nav-link"
+              href="/#businessplan"
+            >
               Business Plan
             </a>
-            <a className="nav-item nav-link" href="/#sponsorship">
+            <a
+              className="underlineOnHover nav-item nav-link"
+              href="/#sponsorship"
+            >
               Sponsorships
             </a>
-            <a className="nav-item nav-link" href="/#Projects">
+            <a className="underlineOnHover nav-item nav-link" href="/#Projects">
               Projects
             </a>
-            <a className="nav-item nav-link" href="/#OurVision">
+            <a
+              className="underlineOnHover nav-item nav-link"
+              href="/#OurVision"
+            >
               Our Vision
             </a>
-            <a className="nav-item nav-link" href="/#ContactUs">
+            <a
+              className="underlineOnHover nav-item nav-link"
+              href="/#ContactUs"
+            >
               Contact
             </a>
             <li class="nav-item dropdown">

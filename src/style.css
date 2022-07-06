@@ -69,7 +69,7 @@ p {
 }
 
 #HomePage {
-  background-image: url("/public/images/img7445.jpeg");
+  background-image: url("/public/images/img27.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -136,4 +136,28 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.underlineOnHover {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.underlineOnHover::after {  
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #21a0bd;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underlineOnHover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
