@@ -3,6 +3,7 @@ const Members = () => {
   const firstCaptain = members.shift();
   const secondCaptain = members.shift();
   const thirdCaptain = members.shift();
+  const fourthCaptain = members.shift();
   let m = Math.ceil(members.length / 2);
   let firstHalf = members.slice(0, m);
   let secondHalf = members.slice(m);
@@ -31,14 +32,15 @@ const Members = () => {
           style={{
             textAlign: "center",
           }}
-        >
-          {svgStar} {firstCaptain}
-        </p>
+        ></p>
         <div className="row">
           <div className="col-sm-6">
             <ul>
               <li>
-                {svgStar} {secondCaptain}
+                {svgStar} {firstCaptain}
+              </li>
+              <li>
+                {svgStar} {thirdCaptain}
               </li>
               {arrayToItems(firstHalf)}
             </ul>
@@ -46,7 +48,10 @@ const Members = () => {
           <div className="col-sm-6">
             <ul>
               <li>
-                {svgStar} {thirdCaptain}{" "}
+                {svgStar} {secondCaptain}
+              </li>
+              <li>
+                {svgStar} {fourthCaptain}
               </li>
               {arrayToItems(secondHalf)}
             </ul>

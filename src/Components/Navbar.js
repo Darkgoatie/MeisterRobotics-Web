@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
-      <div className="container-fluid">
+      <div id="navbar" className="container-fluid">
         <a
           style={{
             color: "#21a0bd",

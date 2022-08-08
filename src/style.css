@@ -48,7 +48,7 @@ body {
 }
 
 .dark {
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(31, 31, 31);
   color: white;
 }
 
@@ -76,7 +76,7 @@ p {
 }
 
 #HomeJumbotron {
-  background-color: #212529;
+  background-color: rgb(31, 31, 31);
   opacity: 0.99;
   border-radius: 20cm;
   animation-name: changingOpacity;
@@ -141,7 +141,6 @@ p {
 .underlineOnHover {
   display: inline-block;
   position: relative;
-  color: #0087ca;
 }
 
 .underlineOnHover::after {  
@@ -160,4 +159,38 @@ p {
 .underlineOnHover:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+#CarouselText {
+  transform: translateY(-10%);
+  color: white;
+}
+
+#CarouselText:hover {
+  transition: transform 330ms ease-in-out;
+  transform: translateY(-18%);
+}
+
+#CarouselText a {
+  font-size: 400%;
+  text-decoration: none;
+  color: white;
+}
+
+#thanks {
+  height: auto;
+  background-color: #176E82;
+}
+
+#thanks img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img.carouselImage {
+margin-bottom: -10%;
+}
+
+#navbar {
+  background-color: transparent;
 }
