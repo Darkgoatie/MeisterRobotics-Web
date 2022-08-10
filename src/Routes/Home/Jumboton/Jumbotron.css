@@ -1,0 +1,21 @@
+
+#CarouselText {
+  transform: translateY(-10%);
+  color: white;
+}
+
+#CarouselText:hover {
+  transition: transform 330ms ease-in-out;
+  transform: translateY(-18%);
+}
+
+#CarouselText a {
+  font-size: 400%;
+  text-decoration: none;
+  color: white;
+}
+
+img.carouselImage {
+  margin-bottom: -10%;
+  }
+  

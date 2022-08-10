@@ -1,28 +1,24 @@
-const { render } = require("react-dom");
-import About from "./Components/About";
-import Jumbotron from "./Components/Jumbotron";
-import Members from './Components/Members';
-import Navbar from "./Components/Navbar";
-import BusinessPlan from "./Components/BusinessPlan";
-import Thanks from "./Components/Thanks";
-import Timeline from "./Components/Sponsorships";
-import "./style.css";
-import Sponsors from "./Components/Sponsors";
-import Vision from "./Components/Vision";
-import Values from "./Components/Values";
+const { render } = require("react-dom"); // Import renderer from react library
+import "./global.css"; // Import global css ( Applies for all components )
+
+// Import Components Route
+import About from "./Routes/Home/About/About";
+import Jumbotron from "./Routes/Home/Jumboton/Jumbotron";
+import Members from "./Routes/Home/Members/Members";
+import Navbar from "./Routes/Home/Navbar/Navbar";
+import BusinessPlan from "./Routes/Home/BusinessPlan/BusinessPlan";
+import Thanks from "./Routes/Home/Sponsors/Sponsors";
+import Timeline from "./Routes/Home/SponsorshipInfo/SponsorshipInfo";
+import Vision from "./Routes/Home/Vision/Vision";
+import Values from "./Routes/Home/Values/Values";
 import {
   BrowserRouter as Router,
   Switch as Routes,
   Route,
 } from "react-router-dom";
-import RSponsors from "./Components/RouteSponsors";
-import CIMG1 from "./Classes/Image1";
-import CIMG2 from "./Classes/Image2";
-import CIMG3 from "./Classes/Image3";
-import CIMG4 from "./Classes/Image4";
-import Projects from "./Components/Projects";
-import CIMG5 from "./Classes/Image5";
-import Izmir from "./Components/Izmir";
+import RSponsors from "./Routes/Sponsors/Sponsors";
+import Projects from "./Routes/Home/Projects/Projects";
+import Izmir from "./Routes/Home/Izmir/Izmir";
 
 render(
   <Router>
@@ -34,18 +30,12 @@ render(
           <Thanks />
           <About />
           <Members />
-          <CIMG2 />
           <Izmir />
           <Vision />
           <Values />
-          <CIMG1 />
-          <CIMG3 />
           <BusinessPlan />
-          <CIMG4 />
           <Projects />
-          <CIMG5 />
           <Timeline />
-          <Sponsors />
         </div>
       </Route>
       <Route exact path="/sponsors">

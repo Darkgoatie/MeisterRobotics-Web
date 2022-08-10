@@ -1,3 +1,5 @@
+import "./Navbar.css";
+
 const Navbar = () => {
   return (
     <nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
@@ -28,17 +30,8 @@ const Navbar = () => {
             <a className="underlineOnHover nav-item nav-link" href="/#about">
               About
             </a>
-            <a
-              className="underlineOnHover nav-item nav-link"
-              href="/#businessplan"
-            >
-              Business Plan
-            </a>
-            <a
-              className="underlineOnHover nav-item nav-link"
-              href="/#sponsorship"
-            >
-              Sponsorships
+            <a className="underlineOnHover nav-item nav-link" href="/#sponsors">
+              Our Sponsors
             </a>
             <a className="underlineOnHover nav-item nav-link" href="/#Projects">
               Projects

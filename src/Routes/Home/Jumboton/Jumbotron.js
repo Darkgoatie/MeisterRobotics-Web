@@ -1,3 +1,5 @@
+import "./Jumbotron.css";
+
 const Jumbotron = () => {
   return (
     <div

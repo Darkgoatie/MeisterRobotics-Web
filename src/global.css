@@ -1,0 +1,64 @@
+html,
+body {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+}
+
+.dark {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.child {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#img {
+  height: 450px;
+  width: 300px;
+  object-fit: cover;
+  align-self: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.underlineOnHover {
+  display: inline-block;
+  position: relative;
+}
+
+.underlineOnHover::after {  
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #21a0bd;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underlineOnHover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

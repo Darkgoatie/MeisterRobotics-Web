@@ -1,0 +1,15 @@
+.sponsorListImage {
+  max-width: 35vw;
+  border-style: solid;
+  border-color: #1f1f1f;
+  margin: 6.666vw;
+  margin-top: 8vw;
+  background-color: white;
+  padding: 1vw;
+  border-radius: 0.5vw;
+}
+
+div.Sponsors.row {
+  align-items: center;
+  background-color: #1f1f1f;
+}

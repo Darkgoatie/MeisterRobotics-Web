@@ -1,0 +1,24 @@
+
+.sponsorLinkText {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+.sponsorLinkText:hover {
+  color: white;
+  transition: transform 330ms ease-out;
+  transform: translateY(-20%);
+}
+
+#sponsors {
+  height: auto;
+  background-color: #176E82;
+}
+
+#sponsors img {
+  max-width: 100%;
+  max-height: 100%;
+}
