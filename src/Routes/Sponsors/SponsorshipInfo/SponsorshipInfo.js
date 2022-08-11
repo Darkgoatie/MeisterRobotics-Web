@@ -1,5 +1,5 @@
-const Timeline = () => {
-  const links = require("../../Sponsors/links.json");
+const SponsorshipInfo = () => {
+  const links = require("../links.json");
   return (
     <div class="section dark" id="sponsorship">
       <div class="jumbotron">
@@ -52,4 +52,4 @@ const Timeline = () => {
   );
 };
 
-export default Timeline;
+export default SponsorshipInfo;

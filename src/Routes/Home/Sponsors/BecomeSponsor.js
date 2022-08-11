@@ -1,4 +1,4 @@
-import "./Sponsors.css";
+import "./BecomeSponsor.css";
 
 const Thanks = () => {
   const svgIcon = (

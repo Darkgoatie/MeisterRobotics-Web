@@ -16,11 +16,11 @@ body {
   color: white;
 }
 
-h1 {
+body h1 {
   text-align: center;
 }
 
-p {
+body p {
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
@@ -29,15 +29,6 @@ p {
 .child {
   display: inline-block;
   vertical-align: middle;
-}
-
-#img {
-  height: 450px;
-  width: 300px;
-  object-fit: cover;
-  align-self: center;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .underlineOnHover {
