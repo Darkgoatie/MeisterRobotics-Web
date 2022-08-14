@@ -1,10 +1,25 @@
 
+@media only screen and (min-width: 601px) {
+  .sponsorLinkText {
+    top: 60%;
+    left: 10%;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+  a.sponsorLinkText {
+    text-align: center;
+    max-width: 50vw;
+    left: 25vw;
+    right: 25vw;
+    bottom: 2vh;
+  }
+}
+
 .sponsorLinkText {
-  text-decoration: none;
   color: white;
   position: absolute;
-  top: 60%;
-  left: 10%;
 }
 
 .sponsorLinkText:hover {

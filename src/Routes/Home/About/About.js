@@ -1,15 +1,15 @@
 const About = () => {
   return (
-    <div class="section" id="about">
+    <div className="section" id="about">
       <div className="jumbotron">
         <div className="parent">
           <div className="child">
-            <h1 class="display-4">About Us</h1>
-            <p id="AboutUsLead" class="lead">
+            <h1 className="display-4">About Us</h1>
+            <p id="AboutUsLead" className="lead">
               Hi! We are Meister Robotics. We are the second robotics team of
               the (Private) German High School. It is our first year (2021) as a
               Rookie team. We participate in FRC competitions with our{" "}
-              <a href="#TeamMembers">team</a> and mentor.
+              <a href="#Members">team</a> and mentor.
             </p>
           </div>
         </div>

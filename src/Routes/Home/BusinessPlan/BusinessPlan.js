@@ -1,13 +1,13 @@
 const BusinessPlan = () => {
   return (
-    <div class="section" id="businessplan">
-      <div class="jumbotron">
-        <h1 class="display-4">Business Plan: Who are we, what do we do?</h1>
+    <div className="section" id="businessplan">
+      <div className="jumbotron">
+        <h1 className="display-4">Business Plan: Who are we, what do we do?</h1>
         <br />
-        <p class="lead">
-          <div class="dropdown">
+        <p className="lead">
+          <div className="dropdown">
             <button
-              class="btn center-align btn-secondary dropdown-toggle"
+              className="btn center-align btn-secondary dropdown-toggle"
               type="button"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
@@ -15,7 +15,7 @@ const BusinessPlan = () => {
             >
               Business Plan Info
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
                 <a
                   className="dropdown-item"

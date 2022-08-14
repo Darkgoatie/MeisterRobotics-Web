@@ -1,24 +1,29 @@
 import "./BecomeSponsor.css";
+import useWindowDimensions from "../../../utils/useWindowDimensions";
 
 const Thanks = () => {
+  const { width, height } = useWindowDimensions();
   const svgIcon = (
     <img className="svg-icon sponsorIconSVG" src="svgs/billboard.png"></img>
   );
+
+  let imgSource = "Sponsorlar.png";
+  if (width <= 600) {
+    imgSource = "Sponsorlar-mobil.png";
+  }
+
   return (
-    <div class="section dark" id="sponsors">
-      <div class="jumbotron">
-        <div className="parent">
-          <div
-            style={{
-              position: "relative",
-            }}
-            className="child"
-          >
-            <img src="Sponsorlar.png"></img>
-            <a href="/sponsors" className="sponsorLinkText">
-              <h3 className="underlineOnHover">Learn more...</h3>
-            </a>
-          </div>
+    <div className="section dark" id="sponsors">
+      <div className="jumbotron">
+        <div
+          style={{
+            position: "relative",
+          }}
+        >
+          <img src={imgSource}></img>
+          <a href="/sponsors" className="sponsorLinkText">
+            <h3 className="underlineOnHover">Learn more...</h3>
+          </a>
         </div>
       </div>
     </div>

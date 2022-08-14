@@ -1,14 +1,14 @@
 const SponsorshipInfo = () => {
   const links = require("../links.json");
   return (
-    <div class="section dark" id="sponsorship">
-      <div class="jumbotron">
-        <h1 class="display-4">Sponsorships: Become our sponsor!</h1>
+    <div className="section dark" id="sponsorship">
+      <div className="jumbotron">
+        <h1 className="display-4">Sponsorships: Become our sponsor!</h1>
         <br />
-        <p class="lead">
-          <div class="dropdown">
+        <p className="lead">
+          <div className="dropdown">
             <button
-              class="btn center-align btn-secondary dropdown-toggle"
+              className="btn center-align btn-secondary dropdown-toggle"
               type="button"
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
@@ -16,7 +16,7 @@ const SponsorshipInfo = () => {
             >
               Sponsorship Info
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
                 <a
                   className="dropdown-item"

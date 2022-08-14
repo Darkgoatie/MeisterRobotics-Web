@@ -1,3 +1,5 @@
+import "./Members.css";
+
 const Members = () => {
   let members = require("./TeamMembers.json");
   const firstCaptain = members.shift();

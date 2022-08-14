@@ -18,4 +18,18 @@
 img.carouselImage {
   margin-bottom: -10%;
   }
-  
+
+@media only screen and (max-width: 600px) {
+  div#carouselExampleControls {
+    height: 90vh;
+  }
+
+  div#carouselExampleControls img {
+    min-height: 95vh;
+    object-fit: cover;
+  }
+    
+  span.carouselCaption {
+    font-size: 0.43333em;
+  }
+}
