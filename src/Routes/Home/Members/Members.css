@@ -2,4 +2,7 @@
   div.section#Members {
     height: 90vh;
   }
+  .row{
+    font-size:10px;
+  }
 }

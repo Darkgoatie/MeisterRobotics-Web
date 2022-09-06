@@ -1,6 +1,6 @@
 const BusinessPlan = () => {
   return (
-    <div className="section" id="businessplan">
+    <div className="section dark" id="businessplan">
       <div className="jumbotron">
         <h1 className="display-4">Business Plan: Who are we, what do we do?</h1>
         <br />

@@ -1,3 +1,5 @@
+import './projects.css';
+
 const Projects = () => {
   return (
     <div className="section" id="Projects">

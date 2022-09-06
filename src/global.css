@@ -1,14 +1,19 @@
-html,
-body {
-  overflow-y: scroll;
+body::-webkit-scrollbar {
+  display: none;
   scroll-behavior: smooth;
+  
+  
 }
 
 .section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 650px;
+  width: 100vw;
+  scroll-behavior: smooth;
+  height: calc(100vh - 20px);
+  scroll-snap-type: y mandatory;
+  
 }
 
 .dark {
@@ -18,6 +23,7 @@ body {
 
 body h1 {
   text-align: center;
+  
 }
 
 body p {

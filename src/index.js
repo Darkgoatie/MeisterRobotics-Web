@@ -25,7 +25,7 @@ render(
   <Router>
     <Routes>
       <Route exact path="/">
-        <div className="Main">
+        <div className="sections">
           <Navbar />
           <Jumbotron />
           <SponsorPlan />
@@ -49,4 +49,5 @@ render(
     </Routes>
   </Router>,
   document.getElementById("root")
+  
 );
