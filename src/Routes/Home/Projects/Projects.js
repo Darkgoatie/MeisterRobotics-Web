@@ -1,6 +1,8 @@
+import './projects.css';
+
 const Projects = () => {
   return (
-    <div className="section" id="Projects">
+    <div className="section dark" id="Projects">
       <div className="jumbotron" style={{ width: "100%" }}>
         <p className="display-3">Projects</p>
         <p className="lead">
