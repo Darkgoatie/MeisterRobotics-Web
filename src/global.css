@@ -5,13 +5,15 @@ body::-webkit-scrollbar {
   
 }
 
+
+
 .section {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   scroll-behavior: smooth;
-  height: calc(100vh - 20px);
+  height: 100vh;
   scroll-snap-type: y mandatory;
   
 }
@@ -59,3 +61,28 @@ body p {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
+.header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:100px;
+  font-weight: 320;
+  font-size:60px;
+
+}
+
+@media(max-width: 574px) {
+  .header{
+    font-size:30px;
+  }
+}
+
+.values{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:100px;
+}
+

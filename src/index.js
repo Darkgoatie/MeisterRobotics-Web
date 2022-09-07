@@ -11,7 +11,6 @@ import BusinessPlan from "./Routes/Home/BusinessPlan/BusinessPlan";
 import SponsorPlan from "./Routes/Home/Sponsors/BecomeSponsor";
 import SponsorshipInfo from "./Routes/Sponsors/SponsorshipInfo/SponsorshipInfo";
 import Vision from "./Routes/Home/Vision/Vision";
-import Values from "./Routes/Home/Values/Values";
 import {
   BrowserRouter as Router,
   Switch as Routes,
@@ -32,8 +31,7 @@ render(
           <About />
           <Members />
           <Izmir />
-          <Vision />
-          <Values />
+          <Vision />       
           <BusinessPlan />
           <Projects />
         </div>
