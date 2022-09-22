@@ -23,26 +23,20 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-    
-    <div id="root">
-        
-    </div>
-    
-</body>
-<div class = "txtsphere">
-    <h1 class = header>Our Values</h1>
-    <span class="values"></span>
-    
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js">
     </script>
     <script>
+        function insertAfter(newNode, referenceNode) {
+            referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+        }
+        setTimeout(() => {
         const myTags = [
             'Respect and responsive professionalism', 'Generosity', 'Sense of responsibility',
             'Justice', 'Equality', 'Team acting and spirit',
             'Innovative thinking and creativity', 'Discipline', 'Fun',
             'Sense of responsibility',
         ];
-        var tagCloud = TagCloud('.values', myTags,{
+        var tagCloud = TagCloud('.valuesphere', myTags,{
             radius: 200,
             maxSpeed: 'fast',
             initSpeed: 'fast',
@@ -50,9 +44,15 @@
             keep: true,
             });
         var color = '#9F614A';
-        document.querySelector('.values').style.color = color;
+        document.querySelector('.valuesphere').style.color = color;
+        }, 100);
     </script>
-</div>
+    
+    <div id="root">
+        
+    </div>
+    
+</body>
 
 <footer id="footer" class="footer">
 

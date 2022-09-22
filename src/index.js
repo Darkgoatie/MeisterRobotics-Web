@@ -19,6 +19,7 @@ import {
 import RSponsors from "./Routes/Sponsors/Sponsors";
 import Projects from "./Routes/Home/Projects/Projects";
 import Izmir from "./Routes/Home/Izmir/Izmir";
+import Values from "./Routes/Home/Values/Values";
 
 render(
   <Router>
@@ -31,9 +32,10 @@ render(
           <About />
           <Members />
           <Izmir />
-          <Vision />       
+          <Vision />
           <BusinessPlan />
           <Projects />
+          <Values />
         </div>
       </Route>
       <Route exact path="/sponsors">
@@ -47,5 +49,4 @@ render(
     </Routes>
   </Router>,
   document.getElementById("root")
-  
 );
