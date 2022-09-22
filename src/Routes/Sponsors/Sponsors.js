@@ -1,12 +1,16 @@
 import "./Sponsors.css";
 
 const RSponsors = () => {
-  const il = require("../Sponsors/links.json").icons;
+  const brandlist = require("../Sponsors/links.json").brands;
   return (
     <div className="Sponsors row">
       <div className="column">
-        {il.map((source) => {
-          return <img className="sponsorListImage" src={source}></img>;
+        {brandlist.map((brand) => {
+          return (
+            <a target="_blank" href={brand.link}>
+              <img className="sponsorListImage" src={brand.img}></img>
+            </a>
+          );
         })}
       </div>
     </div>

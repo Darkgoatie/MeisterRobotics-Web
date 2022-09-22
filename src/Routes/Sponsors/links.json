@@ -1,12 +1,11 @@
 {
-    "icons": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Logo_Pilz_GmbH_%26_Co._KG.svg/1280px-Logo_Pilz_GmbH_%26_Co._KG.svg.png",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Turkish_Cargo_logo.svg/2560px-Turkish_Cargo_logo.svg.png", 
-        "https://turkmenleryapi.com/wp-content/uploads/2018/01/silverline.png", 
-        "https://s.dunya.com/uploads/content/finansbank-logojpg.jpg?v=1477044686", 
-        "http://galeri3.arkitera.com/var/thumbs/arkiv-2/ofis/openact_logo.jpg.jpeg",
-        "https://3yq5q42rw3z48qnbj46yehrx-wpengine.netdna-ssl.com/wp-content/uploads/2017/03/sager-logo.jpg",
-        "http://esboya.com.tr/app/dn_content/5c062e7a88f3a.png"
+    "brands": [
+        {"img": "/Sponsors/Pilz.jpg", "link": "https://en.wikipedia.org/wiki/Pilz_(company)"},
+        {"img": "/Sponsors/Fyukselfoundation.png", "link": "https://www.fikretyukselfoundation.org/"},
+        {"img": "/Sponsors/TurkishCargo.png", "link": "https://www.turkishcargo.com.tr/"},
+        {"img": "/Sponsors/Silverline.svg", "link": "https://silverline.com/"},
+        {"img": "/Sponsors/Dow.svg", "link": "https://www.dow.com/en-us"},
+        {"img": "/Sponsors/Keramik.png", "link": "https://www.keramik.com.tr/"}
     ],
     "sponsorInfo": {
         "EN": "https://drive.google.com/file/d/1PjbHsNoH9uoedGMygpfgSKR4hX4A-pPx/view?usp=drivesdk",
