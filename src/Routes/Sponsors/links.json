@@ -5,7 +5,8 @@
         {"img": "/Sponsors/TurkishCargo.png", "link": "https://www.turkishcargo.com.tr/"},
         {"img": "/Sponsors/Silverline.svg", "link": "https://silverline.com/"},
         {"img": "/Sponsors/Dow.svg", "link": "https://www.dow.com/en-us"},
-        {"img": "/Sponsors/Keramik.png", "link": "https://www.keramik.com.tr/"}
+        {"img": "/Sponsors/Keramik.png", "link": "https://www.keramik.com.tr/"},
+        {"img": "/Sponsors/WebTekno.jpg", "link": "https://www.webtekno.com/"}
     ],
     "sponsorInfo": {
         "EN": "https://drive.google.com/file/d/1OZzpyavkSPj_OKAjaP1_QzT9f8tABGnS/view?usp=sharing",
